@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria DEVF</title>
+</head>
+<body>
+
+    <h1>Bienvenido a la pizzeria DEVF</h1>
+
+    <form>
+        <br>
+        <label for="nombre">nombre</label>
+        <input
+            type="text"
+            name="nombre"
+            placeholder="Ingresa tu nombre"
+            minlength="2"
+            required
+        />
+
+        <br>
+        <label for="Email">Correo electronico</label>
+        <input
+            id="Email"
+            type="text"
+            name="Email"
+            placeholder="Ingresa tu Email"
+            minlength="2"
+            required
+        />
+
+        <br>
+        <label for="Dirección" >Dirección</label>
+            <input 
+                type="text"
+                placeholder="Ingresa tu Dirección"
+                name="Dirección"
+                minlength="2"
+                required
+            />
+
+        <br>
+        <label for="Horario">Horario</label>
+        <input
+            type="number"
+            name="Horario"
+            placeholder="Ingresa el horario de tu preferencia"
+            required
+        >
+
+        <br>
+        <select name="Pizza">
+            <option value="" selected hidden disabled >Selecciona la pizza de tu elección</option>
+            <option value="Pizza Napolitana">Napolitana</option>
+            <option value="Pizza de Peperoni">Peperoni</option>
+            <option value="Pizza vegana">vegana</option>
+            <option value="Pizza 4 quesos">4 quesos</option>
+        </select>
+
+    </form>
+    
+</body>
+</html>
